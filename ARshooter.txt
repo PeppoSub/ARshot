@@ -27,8 +27,8 @@ Add new --> AR Session
 
 ... 
 
-Build 
+Build for Android (.apk) 
 Copy to Dad's phone (/Download) 
+Install .apk
 Play
-
 
