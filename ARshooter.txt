@@ -1,0 +1,34 @@
+Totorial:  https://www.youtube.com/watch?v=RzmBnllRnh8
+Assets:    https://drive.google.com/file/d/1M0pM3k7qsSQ9s3zAodWrplcfqRJTZ5Zg/
+
+---
+
+Using: 
+- Unity Hub (unity.com)
+- Unity 2020.1.17f1
+  - MS VisualStudio Community 2019
+  - Android Build Support
+    - Android SDK & NDK Tools
+    - OpenJDK
+
+Open Unity, create new project:  C:\Unity\ARshot
+
+Install packages (in Unity):  
+ Package Manager --> Unity Registry 
+ - AR Foundation 3.1.10
+ - ARCore XR Plugin 3.1.10
+ - ARKit XR Plugin 3.1.10
+
+Project Settings --> XR Plug-in Management --> Android --> (x) Initialize XR on Startup
+                                                       --> Plug-in Providers --> (x) ARCore
+Delete Main Camera
+Add new --> AR Session
+        --> AR Session Origin
+
+... 
+
+Build 
+Copy to Dad's phone (/Download) 
+Play
+
+
